@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 70%;
     height: 100vh;
 }
 
@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 57%;
 }
 
 .pupgram-phone img {
@@ -163,7 +163,7 @@ body {
     .download {
         display: flex;
         flex-wrap: wrap; 
-        width: 100%;
+        width: 60%;
         justify-content: space-around;
         align-items: center;
         padding: 1rem;
