@@ -1,5 +1,6 @@
 :root{
-    --vermelho:#E50914;
+    /* --vermelho:#E50914; */
+    --vermelho: yellow;
     --preta:#141414;
 }
 
@@ -9,7 +10,7 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
+/*base*/
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
@@ -43,7 +44,7 @@ header nav a:hover{
     color:#fff;
 }
 
-/*filme principal*/
+/*principal*/
 .filme-principal{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
