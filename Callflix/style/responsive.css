@@ -6,9 +6,27 @@
 
     .botao{
         margin-top: 5px;
-        width: 300px;
+        width: 230px;
     }
-
+    .modal-window div {
+        width: 250px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        padding: 2em;
+        background: rgb(0, 0, 0);
+        box-shadow:  0.0em 0.0em 0.1em 0.1em rgb(255, 255, 255);
+        transition: .3s ease all;
+        text-align: justify;
+        overflow: auto;
+    }
+    
+    .modal-window h1 {
+        font-size: 100%;
+        margin: 0 0 25px;
+    } 
+  
 }
 
 @media screen and (min-width:1000px){
